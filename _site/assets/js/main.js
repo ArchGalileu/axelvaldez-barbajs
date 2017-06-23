@@ -12,24 +12,19 @@ function macyInit(){
   });
 }
 
-// Initialization
-
+// barba.js
 var tiledView = Barba.BaseView.extend({
   namespace: 'tiledview',
   onEnterCompleted: function() {
       macyInit();
   },
-
-  onLeaveCompleted: function() {
-      // The Container has just been removed from the DOM.
-
-  }
 });
+
 tiledView.init();
 
 Barba.Dispatcher.on('linkClicked', function(el) {
-  $('.current-menu-item').removeClass('current-menu-item');
-  el.parentElement.className += " current-menu-item";
+  $('.active').removeClass('active');
+  el.parentElement.className += " active";
 });
 
 var FadeTransition = Barba.BaseTransition.extend({
@@ -66,5 +61,19 @@ Barba.Pjax.getTransition = function() {
   return FadeTransition;
 };
 
-macyInit();
-Barba.Pjax.start();
+function setActive(){
+  var page = window.location.href.replace('http://axevaldez.mx/', '');
+  if(page == ''){
+    page = '.work';
+  }else{
+    page = '.' + page.replace('/','');
+  }
+  $(page).addClass('active');
+}
+
+// document ready
+$(function(){
+  macyInit();
+  Barba.Pjax.start();
+  setActive();
+});
