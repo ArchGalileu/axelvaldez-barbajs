@@ -72,7 +72,7 @@ header h1 + p{
 .logo{
   width: 60px;
   height: 60px;
-  background: #f0f0f0 url(img/axel.png);
+  background: #f0f0f0 url(../img/axel.png);
   background-size: 100%;
   border-radius: 50%;
   margin: 0 auto;

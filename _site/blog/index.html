@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
-  <link rel="stylesheet" type="text/css" media="all" href="{{ site.baseurl }}/assets/css/style.css">
+  <link rel="stylesheet" type="text/css" media="all" href="/assets/css/style.css">
 	</head>
 <body>
 	<header>
@@ -12,10 +12,10 @@
 	    <h1>Axel Valdez</h1>
 	    <p>Designer based in Hermosillo, Mexico. Websites, Apps, logo, illustration, lettering, HTML and CSS.</p>
 	    <nav>
-        <ul class="menu"><li><a href="{{ site.baseurl }}/">Work</a></li>
-          <li><a href="{{ site.baseurl }}/blog/">Blog</a></li>
-          <li><a href="{{ site.baseurl }}/about/">About</a></li>
-          <li><a href="{{ site.baseurl }}/lettering/">Lettering</a></li>
+        <ul class="menu"><li><a href="/">Work</a></li>
+          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="/lettering/">Lettering</a></li>
         </ul>
         <ul class="social">
 					<li>
@@ -80,17 +80,23 @@
 	</header>
 	<main id="barba-wrapper"><div class="barba-container" data-namespace="tiledview">
     <article>
-			<h1>{{ page.title }}</h1>
-      {{ content}}
-			{% if page.path contains '_posts' %}
-				<div class="date">{{ page.date | date: '%B %d, %Y' }}</div>
-			{% endif %}
+			<h1>Blog</h1>
+      <ul class="postlist">
+  
+  <li>
+    <span class="date">June 21, 2017</span>
+    <h2><a href="/blog/2017/06/hello-world/">Hello world!</a></h2>
+  </li>
+  
+</ul>
+
+			
     </article>
   </div></main>
-	<link rel="stylesheet" type="text/css" media="all" href="{{ site.baseurl }}/assets/css/animate.css">
+	<link rel="stylesheet" type="text/css" media="all" href="/assets/css/animate.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="{{ site.baseurl }}/assets/js/macy.js"></script>
-  <script src="{{ site.baseurl }}/assets/js/barba.min.js"></script>
-  <script src="{{ site.baseurl }}/assets/js/main.js"></script>
+  <script src="/assets/js/macy.js"></script>
+  <script src="/assets/js/barba.min.js"></script>
+  <script src="/assets/js/main.js"></script>
   </body>
 </html>
