@@ -62,7 +62,7 @@ Barba.Pjax.getTransition = function() {
 };
 
 function setActive(){
-  var page = window.location.href.replace('http://axevaldez.mx/', '');
+  var page = window.location.href.replace('http://axelvaldez.mx/', '');
   if(page == ''){
     page = '.work';
   }else{
