@@ -72,7 +72,8 @@ function setActive(){
 }
 
 $('.tile .desc').click(function(){
-  $(this).css('opacity', '1').mouseleave(function(){
+  var opacity = $(this).css('opacity') == 1 ? 0 : 1;
+  $(this).css('opacity', opacity).mouseleave(function(){
     $(this).attr('style', '');
   });
 });
