@@ -166,8 +166,25 @@ p:last-child{
   margin: 0;
 }
 
-.tile{
-  margin-bottom: 1.5rem;
+.tile .desc{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  background: #f0f0f0;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  opacity: 0;
+  transition: .2s ease-in all;
+}
+
+.tile:hover .desc {
+    opacity: 1;
 }
 
 .tile img{
