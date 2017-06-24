@@ -71,6 +71,12 @@ function setActive(){
   $(page).addClass('active');
 }
 
+$('.tile .desc').click(function(){
+  $(this).css('opacity', '1').mouseleave(function(){
+    $(this).attr('style', '');
+  });
+});
+
 // document ready
 $(function(){
   macyInit();
