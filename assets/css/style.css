@@ -166,6 +166,11 @@ p:last-child{
   margin: 0;
 }
 
+.tile{
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
 .tile .desc{
   position: absolute;
   top: 0;
