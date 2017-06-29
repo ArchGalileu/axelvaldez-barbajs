@@ -222,11 +222,11 @@ p:last-child{
   max-width: 600px;
 }
 
-.post h1 + p{
+article h1 + p{
   margin-top: 0;
 }
 
-.page{
+article{
   overflow: hidden;
 }
 
