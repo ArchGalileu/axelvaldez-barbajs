@@ -1,6 +1,6 @@
 ---
 title: New Website!
-layout: default
+layout: post
 ---
 I've been meaning to build a proper personal website for years. The blockers are always the same: the design isn't good enough, I don't have enough content for the sections I want to include, day work takes over and I never have the chance to code it all, etc.
 

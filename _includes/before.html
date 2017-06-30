@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="shortcut icon" href="/assets/img/favicon.png">
-	<title>{{ site.name }} — {{ page.name }}</title>
+	<title>{{ site.name }} &#8729; {{ page.title }}</title>
   <link rel="stylesheet" type="text/css" media="all" href="/assets/css/style.css">
 	<link rel="alternate" type="application/rss+xml" title="{{ site.name }} — RSS Feed" href="/feed.xml">
 	</head>
@@ -83,24 +83,3 @@
 	    </nav>
 	</header>
 	<main id="barba-wrapper"><div class="barba-container" data-namespace="tiledview">
-		{% if page.path contains '_posts' %}
-	    <article class="post">
-				<h1>{{ page.title }}</h1>
-	      {{ content}}
-				<div class="date">{{ page.date | date: '%B %d, %Y' }}</div>
-	    </article>
-		{% else %}
-			<article>
-				<h1>{{ page.title }}</h1>
-				{{ content}}
-				<div class="date">{{ page.date | date: '%B %d, %Y' }}</div>
-			</article>
-		{% endif %}
-  </div></main>
-	<link rel="stylesheet" type="text/css" media="all" href="/assets/css/animate.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="/assets/js/macy.js"></script>
-  <script src="/assets/js/barba.min.js"></script>
-  <script src="/assets/js/main.js"></script>
-  </body>
-</html>

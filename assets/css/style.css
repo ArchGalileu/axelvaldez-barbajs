@@ -210,12 +210,11 @@ p:last-child{
 
 .postlist .date{
   width: 200px;
-  display: inline-block;
+  display: block;
 }
 
 .postlist h2{
-  display: inline-block;
-  margin: 0;
+  margin: 0 0 1.5rem;
 }
 
 

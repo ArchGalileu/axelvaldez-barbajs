@@ -1,6 +1,6 @@
 ---
 title: In awe of modern inventions
-layout: default
+layout: post
 ---
 Before photography was invented, people could only see that in front of their eyes. To experience the rest of the world, people had to physically travel, or, if they couldn’t afford it, to use other’s interpretation of remote places via narrative or painting.
 
