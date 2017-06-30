@@ -26,8 +26,8 @@ That was it. In a couple days I solved what had been bugging me for years, and I
 
 If you're interested, here's a summary of what I used to build this super simple website:
 
-* Running on[Jekyll](https://jekyllrb.com/)
-* Hosted on [GitHub Pages](https://pages.github.com/), in a [project repo with a custom domain](https://github.com/axelvaldez/axelvaldez.mx)
+* Running on [Jekyll](https://jekyllrb.com/)
+* Hosted in [GitHub Pages](https://pages.github.com/), in a [project repo with a custom domain](https://github.com/axelvaldez/axelvaldez.mx)
 * Image tiles generated with [Macy.js](http://macyjs.com/)
 * Asynchronous Loading thanks to [Barba.js](http://barbajs.org/)
 * Loading animations with [animate.css](https://daneden.github.io/animate.css/)
