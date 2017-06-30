@@ -1,6 +1,7 @@
 ---
 title: New Website!
 layout: post
+date: '2017-06-21T00:00:00.000+00:00'
 ---
 I've been meaning to build a proper personal website for years. The blockers are always the same: the design isn't good enough, I don't have enough content for the sections I want to include, day work takes over and I never have the chance to code it all, etc.
 
@@ -11,6 +12,8 @@ A couple days ago I couldn't sleep and I was thinking just about that. Then I de
 I quickly made a list of content and sketched out a very rough layout and decided (seeing that I wasn't able to sleep anyway) to give it a couple hours and see how it resulted. I quickly set up a new local site on Local by Flywheel (I work daily with WordPress and that's my quickest route to make a website) and I got to coding.
 
 The result was a very simple WordPress theme with the exact layout you're seeing right now. I uploaded the work content on the home page, selected lettering exercises for the lettering section, and a short about page. I had bookmarked [Macy.js](http://macyjs.com/) a few months ago so I used that for masonry-style image layouts with no issues at all.
+
+![](/assets/media/postimages/2017/06/axelvaldezmx-jun-2017.png)
 
 During the next day I kept on making small changes to the content and added [Barba.js](http://barbajs.org/) (which I saw earlier on [Dan Perrera's website](https://perrera.com/)) for asynchronous page loading and caching, along with [animate.css](https://daneden.github.io/animate.css/) for fancy page transitions. The minimal website was ready to go.
 
