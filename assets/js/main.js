@@ -13,14 +13,15 @@ function macyInit(){
 }
 
 // barba.js
-var tiledView = Barba.BaseView.extend({
-  namespace: 'tiledview',
+var pageView = Barba.BaseView.extend({
+  namespace: 'page',
   onEnterCompleted: function() {
       macyInit();
+      ga('send', 'pageview');
   },
 });
 
-tiledView.init();
+pageView.init();
 
 Barba.Dispatcher.on('linkClicked', function(el) {
   $('.active').removeClass('active');
