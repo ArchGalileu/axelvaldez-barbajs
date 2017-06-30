@@ -6,7 +6,7 @@ Before photography was invented, people could only see that in front of their ey
 
 That’s why the invention of photography was so huge for the human race. It removed a limit that most people didn’t even thought was there, and it opened the possibility of  exploring the physical world beyond our reach.
 
-Today we don’t believe anymore that everything important was already invented. But we have an attitude of cynicism to every new thing that comes along. In 2017 we even have cars that drive themselves, and we aren’t excited at all.
+Today we don’t believe anymore that everything important was already invented, but we have an attitude of cynicism to every new thing that comes along. In 2017 we even have cars that drive themselves, and we aren’t excited at all.
 
 These are two (now) very basic inventions that occurred during my lifetime and changed me forever:
 
