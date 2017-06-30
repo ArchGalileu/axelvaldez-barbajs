@@ -17,16 +17,12 @@ var pageView = Barba.BaseView.extend({
   namespace: 'page',
   onEnterCompleted: function() {
       macyInit();
+      setActive();
       ga('send', 'pageview');
   },
 });
 
 pageView.init();
-
-Barba.Dispatcher.on('linkClicked', function(el) {
-  $('.active').removeClass('active');
-  el.parentElement.className += " active";
-});
 
 var FadeTransition = Barba.BaseTransition.extend({
   start: function() {
@@ -66,9 +62,17 @@ function setActive(){
   var page = window.location.href.replace('http://axelvaldez.mx/', '');
   if(page == ''){
     page = '.work';
-  }else{
-    page = '.' + page.replace('/','');
   }
+  else{
+    page = page.replace('/','');
+    if(page.indexOf('/') != -1){
+      page = '.blog';
+    }
+    else{
+      page = '.' + page;
+    }
+  }
+  $('.active').removeClass('active');
   $(page).addClass('active');
 }
 
