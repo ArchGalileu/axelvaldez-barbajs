@@ -18,8 +18,12 @@ var pageView = Barba.BaseView.extend({
   onEnterCompleted: function() {
       macyInit();
       setActive();
-      ga('send', 'pageview');
   },
+});
+
+Barba.Dispatcher.on('initStateChange', function() {
+  ga('send', 'pageview');
+  console.log('pageview');
 });
 
 pageView.init();
