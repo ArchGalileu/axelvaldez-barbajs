@@ -22,8 +22,9 @@ var pageView = Barba.BaseView.extend({
 });
 
 Barba.Dispatcher.on('initStateChange', function() {
-  ga('send', 'pageview');
-  console.log('pageview');
+  if (typeof ga === 'function') {
+    ga('send', 'pageview', location.pathname);
+  }
 });
 
 pageView.init();
