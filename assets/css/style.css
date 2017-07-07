@@ -266,6 +266,34 @@ main ul:not(.postlist) li:before{
   animation-duration: .2s !important;
 }
 
+code{
+  font-size: .8rem;
+  line-height: 1.875;
+
+  display: block;
+  border: 1px solid #ccc;
+  padding: 2.5rem 1rem 1rem;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+code:before{
+  content: "";
+  width: 100%;
+  display: block;
+  height: 1px;
+  border-bottom: 1px solid #ccc;
+  background: #f0f0f0;
+  border-radius: 5px 5px 0 0;
+  position: absolute;
+  height: 1.5rem;
+  top: 0;
+  left: 0;
+  padding-left: 1rem;
+  color: #ccc;
+}
+
 @media screen and (min-width: 720px){
   .logo{
     width: 100px;
