@@ -4,4 +4,4 @@ author: Axel Valdez
 category_dir: /blog/
 url: http://axelvaldez.mx/
 permalink: /blog/:year/:month/:title/
-highlighter: pygments
+highlighter: rouge
