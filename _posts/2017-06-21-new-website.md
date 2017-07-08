@@ -11,7 +11,7 @@ A couple days ago I couldn't sleep and I was thinking just about that. Then I de
 
 I quickly made a list of content and sketched out a very rough layout and decided (seeing that I wasn't able to sleep anyway) to give it a couple hours and see how it resulted. I quickly set up a new local site on Local by Flywheel (I work daily with WordPress and that's my quickest route to make a website) and I got to coding.
 
-The result was a very simple WordPress theme with the exact layout you're seeing right now. I uploaded the work content on the home page, selected lettering exercises for the lettering section, and typed a short about page. I had bookmarked [Macy.js](http://macyjs.com/) a few months ago so I used that for masonry-style image layouts with no issues at all.
+The result was a very simple WordPress theme with the exact layout you're seeing right now. I uploaded the work content for the home page, selected lettering exercises for the lettering section, and typed a short about page. I had bookmarked [Macy.js](http://macyjs.com/) a few months ago so I used that for masonry-style image layouts with no issues at all.
 
 ![](/assets/media/postimages/2017/06/axelvaldezmx-jun-2017.png)
 
@@ -35,7 +35,7 @@ If you're interested, here's a summary of what I used to build this super simple
 * Asynchronous Loading thanks to [Barba.js](http://barbajs.org/)
 * Loading animations with [animate.css](https://daneden.github.io/animate.css/)
 
-Also, a few days ago I knew about [Forestry](https://forestry.io/), a web-based CMS that connects to a Jekyll website and puts a UI on it. I'm writing this posts in its editor, but I don't like the way it stores media (I want to upload to /media/{{page.title}} and it only supports date-based folders), so I will probably use it just for minor post edits.
+Also, a few days ago I learned about [Forestry](https://forestry.io/), a web-based CMS that connects to a Jekyll website and puts a UI on it. I'm writing this post in its editor, but I don't like the way it stores media (I want to upload to /media/post-name and it only supports date-based folders), so I will probably use it just for minor post edits.
 
 I use [Atom](https://atom.io/) for my code, and a weird combination of AI, PS and Sketch for my images.
 
