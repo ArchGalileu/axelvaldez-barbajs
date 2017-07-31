@@ -1,2 +1,3 @@
 # axelvaldez.mx
-A test jekyll repo
+
+My personal website. Visit it at [axelvaldez.mx](http://axelvaldez.mx).
