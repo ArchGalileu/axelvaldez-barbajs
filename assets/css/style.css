@@ -294,6 +294,18 @@ code:before{
   color: #ccc;
 }
 
+hr{
+  border: none;
+  margin: 1.5rem auto;
+}
+hr:before{
+  content: "···";
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  opacity: .5;
+}
+
 @media screen and (min-width: 720px){
   .logo{
     width: 100px;
