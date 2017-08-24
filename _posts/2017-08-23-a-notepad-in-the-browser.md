@@ -88,4 +88,4 @@ Also, urls starting with http:// or https:// will become clickable links.
 
 That is it. I hope you find it useful and you like it. If you do, please share it with your friends.
 
-If you have an idea for an improvement, wanna fork it or collaborate, [this is the source code on Github](https://axelvaldez.github.io/notepad/).
+If you have an idea for an improvement, wanna fork it or collaborate, [this is the source code on Github](https://github.com/axelvaldez/notepad/).
